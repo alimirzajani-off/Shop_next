@@ -20,9 +20,9 @@ export default function Home() {
 
   return (
     <div>
-      <div className="cover"></div>
+      <div className="cover mt-4"></div>
       {/* <Image className="w-full" src={"/cover.jpg"} width={300} height={50} /> */}
-      <div className="flex justify-center items-center mt-10 my-6 bg-[#F6DF60] px-2">
+      <div className="flex flex-wrap justify-center items-center mt-10 my-6 bg-[#F6DF60] px-2">
         <button
           className="bg-white rounded-full w-12	h-12"
           style={{ visibility: visibleCount > 5 ? "" : "hidden" }}
